@@ -4,4 +4,10 @@ const car = {
     "version":"zxi"
 }
 
-console.log(car)
+const anotherCar = {
+    ...car,
+    "color": "white",
+    "fuel": "petrol/cng"
+}
+console.log(car);
+console.log(anotherCar)
